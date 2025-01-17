@@ -4,9 +4,10 @@
 // and another variable that references the height in meters.
 //
 
-let radius = 7;
+let diameter = 14;
 let height = 9;
 
+let radius = diameter /2;
 let rad = radius * radius;
 
 let volume = Math.PI * rad * height;

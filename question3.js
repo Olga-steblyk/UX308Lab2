@@ -12,5 +12,5 @@ let rad = radius * radius;
 
 let volume = Math.PI * rad * height;
 
-console.log(Math.round(volume * 10) / 10 + " is the volume of the cylinder in cm if the radius is "+radius+" and the height is "+ height)
+console.log(Math.round(volume * 100) / 100 + " is the volume of the cylinder in cm if the radius is "+radius+" and the height is "+ height)
 
